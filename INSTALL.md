@@ -29,3 +29,14 @@ The location of WezTerm's directory varies between platforms:
 -   \*nix: `$HOME/.config/wezterm/`
 -   Windows: directory that contains `wezterm.exe`
 
+#### Alternative
+
+Use the dracula theme bundled with WezTerm (uses iTerm2 colors, and without tab bar stylings)
+
+Edit your `wezterm.lua` file under WezTerm's directory with the following content:
+
+```lua
+return {
+	color_scheme = "Dracula"
+}
+```
