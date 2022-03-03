@@ -23,7 +23,7 @@ return {
     scrollbar_thumb = "#44475a",
 
     -- The color of the split lines between panes
-    split = "#bd93f9",
+    split = "#6272a4",
 
     ansi = {"#21222C", "#FF5555", "#50FA7B", "#F1FA8C", "#BD93F9", "#FF79C6", "#8BE9FD", "#F8F8F2"},
     brights = {"#6272A4", "#FF6E6E", "#69FF94", "#FFFFA5", "#D6ACFF", "#FF92DF", "#A4FFFF", "#FFFFFF"},
