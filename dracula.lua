@@ -15,9 +15,9 @@ return {
     cursor_border = "#f8f8f2",
 
     -- the foreground color of selected text
-    selection_fg = "#282a36",
+    selection_fg = "none",
     -- the background color of selected text
-    selection_bg = "#44475a",
+    selection_bg = "rgba(68,71,90,0.5)",
 
     -- The color of the scrollbar "thumb"; the portion that represents the current viewport
     scrollbar_thumb = "#44475a",
