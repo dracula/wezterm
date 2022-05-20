@@ -28,11 +28,6 @@ return {
     ansi = {"#21222C", "#FF5555", "#50FA7B", "#F1FA8C", "#BD93F9", "#FF79C6", "#8BE9FD", "#F8F8F2"},
     brights = {"#6272A4", "#FF6E6E", "#69FF94", "#FFFFA5", "#D6ACFF", "#FF92DF", "#A4FFFF", "#FFFFFF"},
 
-    -- Arbitrary colors of the palette in the range from 16 to 255
-    indexed = {
-        [136] = "#44475A"
-    },
-
     -- Since: nightly builds only
     -- When the IME, a dead key or a leader key are being processed and are effectively
     -- holding input pending the result of input composition, change the cursor
