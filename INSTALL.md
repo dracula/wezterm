@@ -12,22 +12,22 @@ Download using the [GitHub .zip download](https://github.com/dracula/wezterm/arc
 
 #### Activating theme
 
-1. Copy paste `dracula.lua` to WezTerm's directory
+1. Copy paste `dracula.toml` to WezTerm's custom scheme directory (will be bundled in future wezterm releases)
 2. Edit your `wezterm.lua` file under WezTerm's directory with the following content:
 
 ```lua
-local dracula = require 'dracula';
 return {
-    colors = dracula,
-    tab_bar_at_bottom = true,
-    use_fancy_tab_bar = false
+    color_scheme: 'Dracula (Official)',
+	tab_bar_at_bottom = true,
+    use_fancy_tab_bar = false,
+	window_decorations = "RESIZE"
 }
 ```
 
-The location of WezTerm's directory varies between platforms:
+The location of WezTerm's custom scheme directory varies between platforms:
 
--   \*nix: `$HOME/.config/wezterm/`
--   Windows: directory that contains `wezterm.exe`
+-   \*nix: `$HOME/.config/wezterm/colors`
+-   Windows: a (new) directory named `colors` that is in the same directory as the `wezterm.exe`
 
 #### Alternative
 
