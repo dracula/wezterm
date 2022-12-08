@@ -17,10 +17,10 @@ Download using the [GitHub .zip download](https://github.com/dracula/wezterm/arc
 
 ```lua
 return {
-    color_scheme: 'Dracula (Official)',
-	tab_bar_at_bottom = true,
+    color_scheme = "Dracula (Official)",
+    tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
-	window_decorations = "RESIZE"
+    window_decorations = "RESIZE"
 }
 ```
 
