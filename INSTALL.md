@@ -13,6 +13,7 @@ Download using the [GitHub .zip download](https://github.com/dracula/wezterm/arc
 #### Activating theme
 
 1. Copy paste `dracula.toml` to WezTerm's custom scheme directory (only needed for releases before 20220903-194523-3bb1ed61)
+    - Reference:  [WezTerm/Defining a Color Scheme in a separate file](https://wezfurlong.org/wezterm/config/appearance.html#defining-a-color-scheme-in-a-separate-file)
 2. Edit your `wezterm.lua` file under WezTerm's directory with the following content:
 
 ```lua
