@@ -18,7 +18,10 @@ Download using the [GitHub .zip download](https://github.com/dracula/wezterm/arc
 
 ```lua
 return {
-    color_scheme = 'Dracula (Official)'
+    color_scheme = "Dracula (Official)",
+    tab_bar_at_bottom = true,
+    use_fancy_tab_bar = false,
+    window_decorations = "RESIZE"
 }
 ```
 
@@ -35,6 +38,6 @@ Edit your `wezterm.lua` file under WezTerm's directory with the following conten
 
 ```lua
 return {
-	color_scheme = "Dracula"
+    color_scheme = "Dracula"
 }
 ```
